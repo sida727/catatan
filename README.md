@@ -5,8 +5,8 @@
 https://github.com/termux/termux-app/releases
 ```
 <br>
----
-
+---  
+<br>
 ### Instal aplikasi tidak dikenal
 <img src="/documentation/images/img.jpg"/>
 <br>
