@@ -1,5 +1,5 @@
 # INSTALL TERMUX ANDROID TANPA ROOT
-### Vidoe Instalasi: [LinuxDroidMaster](https://www.youtube.com/@LinuxDroidMaster/videos)
+## Vidoe Instalasi: [LinuxDroidMaster](https://www.youtube.com/@LinuxDroidMaster/videos)
 ### Download termux-app releases terbaru
 ```
 https://github.com/termux/termux-app/releases
@@ -7,6 +7,7 @@ https://github.com/termux/termux-app/releases
 <br>
 ---  
 <br>
+
 ### Instal aplikasi tidak dikenal
 <img src="/documentation/images/img.jpg"/>
 <br>
