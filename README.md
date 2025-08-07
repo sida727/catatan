@@ -43,3 +43,17 @@ pkg upgrade
 tekan y sampay selesai
 
 <img src="/documentation/Screenshot_upgrade.jpg"/>
+<br>
+
+## Perintah Dasar
+Beberapa perintah dasar yang umum digunakan adalah:
+ * pkg update && pkg upgrade: Memperbarui daftar paket dan meng-upgrade paket yang sudah terpasang.
+ * pkg install <nama_paket>: Menginstal paket atau aplikasi baru.
+ * ls: Melihat daftar file dan folder di direktori saat ini.
+ * cd <nama_folder>: Pindah ke direktori lain.
+ * pwd: Menampilkan direktori kerja saat ini.
+ * mkdir <nama_folder>: Membuat folder baru.
+ * rm <nama_file>: Menghapus file.
+ * mv <file_asal> <file_tujuan>: Memindahkan atau mengganti nama file.
+ * cp <file_asal> <file_tujuan>: Menyalin file.
+ * cat <nama_file>: Menampilkan isi file.
