@@ -1,14 +1,16 @@
-# Berikut adalah panduan langkah demi langkah untuk menginstal dan memulai dengan Termux.
-## Vidoe Instalasi: [sida57](https://www.youtube.com/@sida57)
+# Instalasi Nginx
+
+## Video Instalasi: [sida57](https://www.youtube.com/@sida57)
 * [Mengunduh Aplikasi Termux 📥](#unduh)
 * [Mengaktifkan Sumber Tidak Dikenal ⚙️](#sumber)
 * [Mengatur Repository Termux 📦](#repo)
 * [Memberikan Izin Penyimpanan 📂](#izin)
 * [Memperbarui dan Meningkatkan Paket 🚀](#perbarui)
+* [Perintah Dasar Termux 💻](#perintah)
 
 ## 1. Mengunduh Aplikasi Termux 📥 <a name=unduh></a>
 
-Anda harus mengunduh file APK Termux terbaru dari halaman GitHub resmi mereka. Penting untuk mengunduh dari sumber ini karena versi di Google Play Store tidak lagi diperbarui.
+### Anda harus mengunduh file APK Termux terbaru dari halaman GitHub resmi mereka. Penting untuk mengunduh dari sumber ini karena versi di Google Play Store tidak lagi diperbarui.
 * Kunjungi
    ~~~
    https://github.com/termux/termux-app/releases
@@ -20,7 +22,7 @@ Anda harus mengunduh file APK Termux terbaru dari halaman GitHub resmi mereka. P
 
 <img src="/documentation/Screenshot_aplikasi_tidak_dikenal.jpg"/>
 
-Setelah mengunduh, Anda perlu memberikan izin kepada perangkat Android Anda untuk menginstal aplikasi dari sumber eksternal.
+### Setelah mengunduh, Anda perlu memberikan izin kepada perangkat Android Anda untuk menginstal aplikasi dari sumber eksternal.
 * Pergi ke Pengaturan di perangkat Anda.
 * Cari menu Keamanan atau Privasi.
 * Cari dan aktifkan opsi Instal aplikasi yang tidak dikenal atau Sumber tidak dikenal.
@@ -28,7 +30,7 @@ Setelah mengunduh, Anda perlu memberikan izin kepada perangkat Android Anda untu
   
 ## 3. Mengatur Repository Termux 📦 <a name=repo></a>
 
-Setelah instalasi, langkah selanjutnya adalah mengatur repository atau "gudang" paket. Mengganti repository dapat meningkatkan kecepatan unduhan dan memastikan Anda mendapatkan paket terbaru.
+### Setelah instalasi, langkah selanjutnya adalah mengatur repository atau "gudang" paket. Mengganti repository dapat meningkatkan kecepatan unduhan dan memastikan Anda mendapatkan paket terbaru.
  * Buka aplikasi Termux yang telah terinstal.
  * Ketik perintah
    ~~~
@@ -44,7 +46,7 @@ Setelah instalasi, langkah selanjutnya adalah mengatur repository atau "gudang" 
 
 ## 4. Memberikan Izin Penyimpanan 📂 <a name=izin></a>
 
-Agar Termux dapat mengakses file di penyimpanan internal perangkat Anda, Anda harus memberikan izin secara manual.
+### Agar Termux dapat mengakses file di penyimpanan internal perangkat Anda, Anda harus memberikan izin secara manual.
 
 <img src="/documentation/Screenshot_akses_penyimpanan.jpg"/>
 
@@ -54,7 +56,7 @@ Agar Termux dapat mengakses file di penyimpanan internal perangkat Anda, Anda ha
 
 ## 5. Memperbarui dan Meningkatkan Paket 🚀 <a name=perbarui></a>
 
-Ini adalah langkah krusial untuk memastikan semua paket Anda terbaru dan menghindari masalah kompatibilitas.
+### Ini adalah langkah krusial untuk memastikan semua paket Anda terbaru dan menghindari masalah kompatibilitas.
  * Ketik
    ~~~
    pkg update
@@ -73,7 +75,7 @@ Ini adalah langkah krusial untuk memastikan semua paket Anda terbaru dan menghin
 
 ## Perintah Dasar Termux 💻
 
-Berikut adalah beberapa perintah penting yang perlu Anda ketahui untuk memulai:
+### Berikut adalah beberapa perintah penting yang perlu Anda ketahui untuk memulai:
  * pkg update && pkg upgrade: Perintah ini menggabungkan pembaruan daftar paket dan peningkatannya.
  * pkg install <nama_paket>: Digunakan untuk menginstal paket atau aplikasi baru. Contoh: pkg install python.
  * ls: Menampilkan daftar file dan folder di direktori saat ini.
