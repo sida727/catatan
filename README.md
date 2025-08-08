@@ -1,14 +1,14 @@
 # Instalasi Nginx
 
 ## Video Instalasi: [sida57](https://www.youtube.com/@sida57)
-* [Mengunduh Aplikasi Termux 📥](#unduh)
-* [Mengaktifkan Sumber Tidak Dikenal ⚙️](#sumber)
-* [Mengatur Repository Termux 📦](#repo)
-* [Memberikan Izin Penyimpanan 📂](#izin)
-* [Memperbarui dan Meningkatkan Paket 🚀](#perbarui)
-* [Perintah Dasar Termux 💻](#perintah)
+* [📥 Mengunduh Aplikasi Termux](#unduh)
+* [⚙️ Mengaktifkan Sumber Tidak Dikenal](#sumber)
+* [📦 Mengatur Repository Termux](#repo)
+* [📂 Memberikan Izin Penyimpanan](#izin)
+* [🚀 Memperbarui dan Meningkatkan Paket](#perbarui)
+* [💻 Perintah Dasar Termux](#perintah)
 
-## 1. Mengunduh Aplikasi Termux 📥 <a name=unduh></a>
+## 📥 Mengunduh Aplikasi Termux <a name=unduh></a>
 
 ### Anda harus mengunduh file APK Termux terbaru dari halaman GitHub resmi mereka. Penting untuk mengunduh dari sumber ini karena versi di Google Play Store tidak lagi diperbarui.
 * Kunjungi
@@ -18,7 +18,7 @@
    
 * Unduh file **.apk** versi terbaru yang sesuai untuk perangkat Anda.
    
-## 2. Mengaktifkan Sumber Tidak Dikenal ⚙️ <a name=sumber></a>
+## ⚙️ Mengaktifkan Sumber Tidak Dikenal <a name=sumber></a>
 
 <img src="/documentation/Screenshot_aplikasi_tidak_dikenal.jpg"/>
 
@@ -28,7 +28,7 @@
 * Cari dan aktifkan opsi Instal aplikasi yang tidak dikenal atau Sumber tidak dikenal.
 * Pilih aplikasi tempat Anda mengunduh file APK (misalnya, browser Chrome atau File Manager) dan berikan izin.
   
-## 3. Mengatur Repository Termux 📦 <a name=repo></a>
+## 📦 Mengatur Repository Termux <a name=repo></a>
 
 ### Setelah instalasi, langkah selanjutnya adalah mengatur repository atau "gudang" paket. Mengganti repository dapat meningkatkan kecepatan unduhan dan memastikan Anda mendapatkan paket terbaru.
  * Buka aplikasi Termux yang telah terinstal.
@@ -44,7 +44,7 @@
 
    <img src="/documentation/Screenshot_linux.domainesia.jpg"/>
 
-## 4. Memberikan Izin Penyimpanan 📂 <a name=izin></a>
+## 📂 Memberikan Izin Penyimpanan <a name=izin></a>
 
 ### Agar Termux dapat mengakses file di penyimpanan internal perangkat Anda, Anda harus memberikan izin secara manual.
 
@@ -54,7 +54,7 @@
  * Sebuah jendela pop-up akan muncul meminta izin untuk mengakses file. Ketuk Izinkan.
  * Sekarang Anda dapat mengakses folder penyimpanan utama Anda di Termux melalui direktori storage/shared.
 
-## 5. Memperbarui dan Meningkatkan Paket 🚀 <a name=perbarui></a>
+## 🚀 Memperbarui dan Meningkatkan Paket <a name=perbarui></a>
 
 ### Ini adalah langkah krusial untuk memastikan semua paket Anda terbaru dan menghindari masalah kompatibilitas.
  * Ketik
@@ -73,7 +73,7 @@
    dan tekan Enter. Ini akan meningkatkan semua paket yang terinstal ke versi terbaru.
  * Saat diminta untuk melanjutkan (misalnya, Do you want to continue? [Y/n]), cukup ketik y dan tekan Enter sampai proses selesai.
 
-## Perintah Dasar Termux 💻
+## 💻 Perintah Dasar Termux <a name=perintah></a>
 
 ### Berikut adalah beberapa perintah penting yang perlu Anda ketahui untuk memulai:
  * pkg update && pkg upgrade: Perintah ini menggabungkan pembaruan daftar paket dan peningkatannya.
