@@ -1,6 +1,6 @@
 # Instalasi Nginx
 
-## Video Instalasi: [sida57](https://www.youtube.com/@sida57)
+## 📺 Video Instalasi: [sida57](https://www.youtube.com/@sida57)
 * [📥 Mengunduh Aplikasi Termux](#unduh)
 * [⚙️ Mengaktifkan Sumber Tidak Dikenal](#sumber)
 * [📦 Mengatur Repository Termux](#repo)
